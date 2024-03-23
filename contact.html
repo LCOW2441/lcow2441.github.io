@@ -3,17 +3,22 @@ Student Number: C0934179 -->
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Makuna Mirrors</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:wght@300;400&family=Lustria&family=Marcellus&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:wght@300;400&family=Lustria&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-<div id="container">
+  <body>
+
+    <div id="container">
     <div id="header">
         <header>
             <img src="img/full.png" id="logo" alt="Company Logo" height="130" width="200">
@@ -52,7 +57,7 @@ Student Number: C0934179 -->
 
                 <h2>Media Inquiries</h2>
                 <p>For media inquiries, interview requests, or partnership opportunities, please contact our media relations team at <a href="mailto:media@makunamirrors.com"></a>media@makunamirrors.com</a>.</p>
-                
+
                 <h2>Visit Our Showroom</h2>
                 <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.215222167091!2d-75.69385178863529!3d45.42516267095267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05010b10aa09%3A0xadb5eb264eeb2625!2sCF%20Rideau%20Centre!5e0!3m2!1sen!2sca!4v1708162244101!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p>Experience our mirror collections in person at our showroom located at Rideau Centre, Ottawa. Our knowledgeable staff will be happy to assist you.</p>
@@ -63,11 +68,47 @@ Student Number: C0934179 -->
                 <h2>Feedback</h2>
                 <p>We value your feedback! If you have any comments, suggestions, or feedback about our products or services, please let us know by filling out the form below.</p>
             </div>
-            
+
         </main>
     </div>
 
     <div id="footer">
+        <form action="#" method="post">
+            <!-- Fieldset with legend -->
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+                <!-- Message -->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required placeholder="Enter your message"></textarea><br>
+                <!-- Gender -->
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br>
+                <!-- Age -->
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required><br>
+                <!-- Interests -->
+                <label for="interests">Interests:</label><br>
+                <select id="interests" name="interests" multiple>
+                    <option value="sports">Sports</option>
+                    <option value="music">Music</option>
+                    <option value="movies">Movies</option>
+                </select><br>
+            </fieldset>
+            <!-- Buttons -->
+            <button type="submit">Submit Request</button>
+            <button type="reset">Reset Form</button>
+        </form>
         <footer>
             <p class="footer">&copy;Copyright 2099. All Rights Reserved.<br></p>
             <p class="footer"><a href="mailto:info@makunamirrors.com">Request Information</a><br></p>
@@ -75,5 +116,5 @@ Student Number: C0934179 -->
         </footer>
     </div>
 </div>
-</body>
+  </body>
 </html>
