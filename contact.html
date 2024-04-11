@@ -6,10 +6,11 @@ Student Number: C0934179 -->
 <head>
     <meta charset="UTF-8">
     <title>Makuna Mirrors</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:wght@300;400&family=Lustria&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/m-high-resolution-logo-transparent.png">
 </head>
 
 <body>
@@ -62,6 +63,41 @@ Student Number: C0934179 -->
 
                 <h2>Feedback</h2>
                 <p>We value your feedback! If you have any comments, suggestions, or feedback about our products or services, please let us know by filling out the form below.</p>
+
+                <div id="form">
+                    <h3>Complete the form below to give your feedback.</h3>
+                    <form class="form-grid">
+                        <fieldset>
+                            <legend>Customer Information</legend>
+                            <label for="fName">First Name: <input type="text" name="fName"id="fName" size="30" placeholder="First name" autofocus required></label>
+                            <label for="lName">Last Name: <input type="text" name="lName" id="lName" size="30" placeholder="Last name" autofocus required></label>
+                            <label for="email">Email: <input type="email" name="email" id="email" size="30" placeholder="Email" required></label>
+                            <label for="gender">Gender: 
+                                <input type="radio" id="male" name="gender" value="male"> Male
+                                <input type="radio" id="female" name="gender" value="female"> Female
+                            </label>
+                            <label for="message">Message: <textarea id="message" name="message" rows="5" cols="30" placeholder="Enter your feedback"></textarea></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Additional Information</legend>
+                            <label for="birthdate">Birthdate: <input type="date" id="birthdate" name="birthdate"></label>
+                            <label for="country">Country: 
+                            <select id="country" name="country">
+                                <option value="usa">USA</option>
+                                <option value="canada">Canada</option>
+                                <option value="uk">UK</option>
+                                <option value="australia">Australia</option>
+                            </select></label>
+                            <p>I would like to receive more information via:</p>
+                            <label for="email"><input type="checkbox" name="email" id="email" value="email">Email</label>
+                            <label for="text"><input type="checkbox" name="text" id="text" value="text">SMS</label> 
+
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset Form</button>
+                        </fieldset>
+
+                    </form>
+                </div>
             </div>
             
         </main>

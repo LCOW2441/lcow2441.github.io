@@ -1,5 +1,5 @@
 /* CSS Reset */
-body,header,nav, main, footer, img, h1, h2, h3, h4, p, em, a, ul{
+body,header,nav, main, footer, img, h1, h2, h3, h4, p, em, a, ul, audio, video{
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,7 +9,7 @@ body,header,nav, main, footer, img, h1, h2, h3, h4, p, em, a, ul{
 header{
     font-size: 30px;
     display: flex;
-    background-color:#C1C3C9;
+    background-color: #C1C3C9;
     color: #293040;
     margin: 10px auto;
     border-radius: 15px;
@@ -267,6 +267,18 @@ a:visited{
 span{
     color: #C1C3C9;
     font-weight: bold
+}
+
+h3#music{
+    color: #293040;
+    font-family: "Lato", sans-serif;
+}
+
+video{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4%;
+    height: 600px;
 }
 
 /* CSS for Footer */
