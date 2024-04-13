@@ -90,7 +90,7 @@ h2#media{
 h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
     font-size: 2em;
     margin-top: 0;
-    color: #293040;
+    color: rgb(80, 49, 47);
 }
 
 h3#slogan{
@@ -113,7 +113,7 @@ h4{
 
 #aboutus, #team, #contact, #faqs, #specials, #training{
     font-size: 2em;
-    color: #293040;
+    color: rgb(80, 49, 47);
     margin-top: 40px;
 }
 
@@ -376,10 +376,10 @@ h2#media{
     margin-bottom: 0;
 }
 
-h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
+h2#specials, h2#team, h2#training, h2#faqs, h2#contact, h2#mm{
     font-size: 2em;
     margin-top: 0;
-    color: #293040;
+    color: rgb(80, 49, 47);
 }
 
 h3#slogan{
@@ -402,7 +402,7 @@ h4{
 
 #aboutus, #team, #contact, #faqs, #specials, #training{
     font-size: 1em;
-    color: #293040;
+    color: rgb(80, 49, 47);
     margin-top: 40px;
 }
 
@@ -669,7 +669,7 @@ h2#media{
     margin-bottom: 0;
 }
 
-h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
+h2#specials, h2#team, h2#training, h2#faqs, h2#contact, h2#mm{
     font-size: 2em;
     margin-top: 0;
     color: rgb(80, 49, 47);
