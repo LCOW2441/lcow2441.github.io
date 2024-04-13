@@ -15,6 +15,7 @@ header{
     border-radius: 15px;
     box-shadow: 10px 10px #293040;
     text-align: center;
+    height: 170px;
 }
 
 header#media{
@@ -76,7 +77,7 @@ h2#media{
 h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
     font-size: 2em;
     margin-top: 0;
-    color: #293040;
+    color: rgb(80, 49, 47);
 }
 h3{
     padding: 0 0 10px 100px;
@@ -179,14 +180,15 @@ main#media p, main#media h2{
 }
 
 /* CSS for Images */
-img{
+img#team{
     height: 300px;
 }
+
 img#logo{
     padding:10px;
     margin: 10px 20px;
-    height: 130px;
-    width: 200px
+    height: 150px;
+    width: 220px
 }
 
 img#icon{

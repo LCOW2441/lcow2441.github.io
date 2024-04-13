@@ -76,7 +76,7 @@ h2#media{
 h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
     font-size: 2em;
     margin-top: 0;
-    color: #293040;
+    color: rgb(80, 49, 47);
 }
 
 h3#slogan{

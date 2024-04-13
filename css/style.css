@@ -15,6 +15,7 @@ header{
     border-radius: 15px;
     box-shadow: 10px 10px #293040;
     text-align: center;
+    height: 170px;
 }
 
 header#media{
@@ -76,7 +77,7 @@ h2#media{
 h2#specials, h2#team, h2#training, h2#faqs, h2#contact, #mm{
     font-size: 2em;
     margin-top: 0;
-    color: #293040;
+    color: rgb(80, 49, 47);
 }
 
 h3#slogan{
